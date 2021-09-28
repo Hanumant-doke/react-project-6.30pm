@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+//import BasicFunctionComponent from "./components/basicFunctionComponent";
+//import BasicClassComponent from './components/basicClassComponent';
+// import BasicFunctionComponentPropsexample from './components/basicFunctionComponentPropsExample';
+import BasicClassComponentPropsExample from './components/basicClassComponentPropsExample';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      {/* <BasicFunctionComponent></BasicFunctionComponent>
+      <BasicClassComponent></BasicClassComponent> */}
+      {/* <BasicFunctionComponentPropsexample myName="hanu" jobrole="react developer"></BasicFunctionComponentPropsexample>
+      <BasicFunctionComponentPropsexample myName="dnyanu" jobrole="react developer"></BasicFunctionComponentPropsexample>
+      <BasicFunctionComponentPropsexample myName="satish" jobrole="react developer"></BasicFunctionComponentPropsexample> */}
+      <BasicClassComponentPropsExample myName= "hanu" jobrole="react developer"></BasicClassComponentPropsExample>
+
     </div>
   );
 }
